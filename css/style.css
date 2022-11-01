@@ -569,6 +569,10 @@ video {
   width: 6rem;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .justify-start {
   justify-content: flex-start;
 }
@@ -645,4 +649,9 @@ video {
 .text-slate-100 {
   --tw-text-opacity: 1;
   color: rgb(241 245 249 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
